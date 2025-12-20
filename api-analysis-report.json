@@ -1,0 +1,77 @@
+{
+  "generated_at": "2025-12-20T19:22:38.561Z",
+  "apis": [
+    {
+      "id": "_API_PROPERTIES",
+      "path": "/api/properties",
+      "file": "src/app/api/properties/route.ts",
+      "methods": [
+        "GET"
+      ],
+      "uses_supabase": true,
+      "has_mock_fallback": true,
+      "has_options": true,
+      "lines_of_code": 310,
+      "frontend_used": true,
+      "recommendation": "KEEP"
+    },
+    {
+      "id": "_API_PROPERTIES__PID_",
+      "path": "/api/properties/[pid]",
+      "file": "src/app/api/properties/[pid]/route.ts",
+      "methods": [
+        "GET"
+      ],
+      "uses_supabase": true,
+      "has_mock_fallback": true,
+      "has_options": true,
+      "lines_of_code": 132,
+      "frontend_used": true,
+      "recommendation": "KEEP"
+    },
+    {
+      "id": "_API_PROPERTIES__PID__FAVORITE",
+      "path": "/api/properties/[pid]/favorite",
+      "file": "src/app/api/properties/[pid]/favorite/route.ts",
+      "methods": [
+        "GET",
+        "POST",
+        "DELETE"
+      ],
+      "uses_supabase": true,
+      "has_mock_fallback": true,
+      "has_options": true,
+      "lines_of_code": 234,
+      "frontend_used": true,
+      "recommendation": "KEEP"
+    },
+    {
+      "id": "_API_PROPERTIES_FEATURED",
+      "path": "/api/properties/featured",
+      "file": "src/app/api/properties/featured/route.ts",
+      "methods": [
+        "GET"
+      ],
+      "uses_supabase": true,
+      "has_mock_fallback": true,
+      "has_options": true,
+      "lines_of_code": 157,
+      "frontend_used": true,
+      "recommendation": "KEEP"
+    },
+    {
+      "id": "_API_R2_UPLOAD-URL",
+      "path": "/api/r2/upload-url",
+      "file": "src/app/api/r2/upload-url/route.ts",
+      "methods": [
+        "POST"
+      ],
+      "uses_supabase": false,
+      "has_mock_fallback": false,
+      "has_options": false,
+      "lines_of_code": 45,
+      "frontend_used": false,
+      "recommendation": "REVIEW / REMOVE"
+    }
+  ]
+}

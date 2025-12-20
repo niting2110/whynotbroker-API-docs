@@ -1,0 +1,47 @@
+{
+  "generated_at": "2025-12-20T19:22:38.516Z",
+  "usage": [
+    {
+      "path": "/api/properties",
+      "used": true,
+      "count": 4,
+      "files": [
+        "src/app/api/properties/[pid]/favorite/route.ts",
+        "src/app/api/properties/[pid]/route.ts",
+        "src/app/api/properties/featured/route.ts",
+        "src/app/api/properties/route.ts"
+      ]
+    },
+    {
+      "path": "/api/properties/[pid]",
+      "used": true,
+      "count": 2,
+      "files": [
+        "src/app/api/properties/[pid]/favorite/route.ts",
+        "src/app/api/properties/[pid]/route.ts"
+      ]
+    },
+    {
+      "path": "/api/properties/[pid]/favorite",
+      "used": true,
+      "count": 1,
+      "files": [
+        "src/app/api/properties/[pid]/favorite/route.ts"
+      ]
+    },
+    {
+      "path": "/api/properties/featured",
+      "used": true,
+      "count": 1,
+      "files": [
+        "src/app/api/properties/featured/route.ts"
+      ]
+    },
+    {
+      "path": "/api/r2/upload-url",
+      "used": false,
+      "count": 0,
+      "files": []
+    }
+  ]
+}
